@@ -141,6 +141,7 @@ header{
 
 .main-container__body_content_order{
     display: flex;
+    background-color: #f6f6f6;
 }
 
 .main-container__body_content_order>img{
@@ -207,12 +208,13 @@ footer{
 }
 
 .footer-container__content{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .footer-container__link_infobox{
-    width: 30%;
+    width: 20%;
 }
 
 .footer-container__link_infobox>h2{
@@ -256,4 +258,18 @@ footer{
 .list-footer__padding>li{
     padding: 10px;
     padding-left: 0;
+    font-weight: lighter;
+}
+
+/*sezione due*/
+
+.footer-container__logo{
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-container__logo>a{
+    padding: 10px;
+    border-radius: 20px;
 }
