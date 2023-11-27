@@ -96,12 +96,42 @@ header{
     padding: 15px 25px;
     border-radius: 25px;
     margin: 3%;
-    width: auto;
 }
 
 .main-container__title_content>div{
     padding: 20px 100px;
     display: flex;
     justify-content: space-around;
+}
+
+/*Body*/
+
+/*Sezione Uno*/
+
+.main-container__body{
+    height: 680px;
+    align-items: center;
+}
+
+.main-container__body_content{
+    display: flex;
+}
+
+.main-container__body_text{
+    width: 30%;
+    margin: auto;
+}
+
+.main-container__body_text>h2{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 10px;
+    color: #212528;
+}
+
+.main-container__body_text>p{
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #212528;
 }
 
