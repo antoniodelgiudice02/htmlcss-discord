@@ -95,7 +95,9 @@ header{
 .buttons{
     padding: 15px 25px;
     border-radius: 25px;
-    margin: 3%;
+    margin: auto;
+    margin-top: 3%;
+    width: auto;
 }
 
 .main-container__title_content>div{
@@ -106,7 +108,7 @@ header{
 
 /*Body*/
 
-/*Sezione Uno*/
+/*Sezione Uno e Tre*/
 
 .main-container__body{
     height: 680px;
@@ -145,6 +147,46 @@ header{
     order: 1;
 }
 
-/*sezione tre*/
+/*sezione quattro*/
 
 
+.main-container__body_taller{
+    height: 1096px;
+    align-items: center;
+}
+
+.main-container__body_content_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container__body_text-horizontal{
+    text-align: center;
+}
+
+.main-container__body_text-horizontal>h2{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 10px;
+    color: #212528;
+}
+
+.main-container__body_text-horizontal>p{
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #212528;
+}
+
+.main-container__body_content_column>span{
+    text-align: center;
+    font-size: 1.5rem;
+    background-image: url(./img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40px;
+}
+
+.main-container__body_content_column>a{
+    text-align: center;
+}
