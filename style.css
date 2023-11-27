@@ -190,3 +190,70 @@ header{
 .main-container__body_content_column>a{
     text-align: center;
 }
+
+/*footer*/
+
+footer{
+    height: 735px;
+    background-color: #23272a;
+}
+
+
+.footer-container__link{
+    margin: auto;
+    height: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-container__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container__link_infobox{
+    width: 30%;
+}
+
+.footer-container__link_infobox>h2{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #748ce0;
+
+}
+
+.footer-container__link_infobox_lenguage{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px;
+    padding-left: 0;
+
+}
+
+.footer-container__link_infobox_lenguage>img{
+    width: 30%;
+    vertical-align: middle;
+}
+
+.footer-container__link_infobox_lenguage>span{
+    vertical-align: middle;
+}
+
+.footer-container__link_list{
+    width: 70%;
+}
+
+#list-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+#list-footer>li{
+    color: #748ce0;
+    padding: 10px;
+}
+
+.list-footer__padding>li{
+    padding: 10px;
+    padding-left: 0;
+}
