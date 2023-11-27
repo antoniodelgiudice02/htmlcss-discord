@@ -135,3 +135,13 @@ header{
     color: #212528;
 }
 
+/*sezione due*/
+
+.main-container__body_content_order{
+    display: flex;
+}
+
+.main-container__body_content_order>img{
+    order: 1;
+}
+
